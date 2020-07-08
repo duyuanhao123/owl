@@ -1,0 +1,184 @@
+* {margin:0; padding:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+img{display:block;}
+a {text-decoration: none;}
+body {width: 1920px; overflow-x: hidden;}
+.clear:after {content: "";display: block;clear: both;}
+
+
+.container{width:1165px;margin: 0 auto;position: relative;}
+.container-fluid{width: 100%;margin: 0 auto; position: relative;}
+
+
+
+
+                /*头部黑条*/
+.container-fluid video{z-index: 1;}
+.blizzard{width: 100%; height: 45px;background-color: black;position: absolute;bottom: 1040px;}
+.ull{display: flex;margin-left: 240px;}
+.ull li{margin-left: 40px;margin-top: 10px;}
+.ull img{width: 120px;height: 45px;}
+.ull li>span{color: grey ;font-size: 20px;}
+.ull li a{color: grey;font-size: 20px;}    
+.ull li a:hover{color:white;transition: all 0.5s;}
+.ulr{display: flex;margin-left: 1440px;position: absolute;top: 5px;}
+.ulr li{margin-right: 30px;width: 150px;height: 20px;}
+.ulr li a{color: grey;line-height: 30px;}
+.ulr li span{color: grey;line-height: 30px;}
+.ulr a:hover{color:white;}
+
+
+                /*头部黑条二级菜单*/
+.yxlb{cursor: pointer;}
+.yxlb:hover{color: ivory;transition: all 1s;}
+.gamelist{ display: flex; width:1920px; height: 0px ;overflow: hidden; background-color:#242c3c;position:absolute;left: 0;top: 40px; z-index: 9999;justify-content: space-evenly;}     
+.gamelist img{width: 180px;height: 180px;margin-top: 30px;}
+.gamelist a:hover{background-color: ivory;transition: all 1s;}
+
+.dianzi{display: flex; width:1920px; height: 0px ;overflow: hidden; background-color:#242c3c;position:absolute;left: 0;top: 40px; z-index: 99;justify-content: space-evenly;}
+.dianzijing:hover{color: ivory;transition: all 1s;}
+.dianzijing{cursor: pointer;}
+.dianzi img{width: 180px;height: 180px;margin-top: 30px;}
+.dianzi img:hover{background-color: ivory;transition: all 1s;}
+
+
+
+
+
+
+
+.login{width: 280px;height: 0px;overflow: hidden; background-color: #242c3c;z-index: 11;}
+.txz{cursor:pointer;}
+.txz:hover{color: white;transition: all 1s;}
+.login li{width: 280px;height:61px;}
+.login button{width:250px;height: 35px;background-color:skyblue;margin-top:10px;margin-left: 10px;}
+.login button span{font-size: 20px;color: white;}
+.login p{font-size: 25px;color: blue;}
+.our{color: white;margin-left: 20px;}
+.our:hover{color: white;transition: all 1s;}
+.wsnd{z-index: 52;}
+.zhuce{color: white;margin-left: 20px;}
+.zhuce:hover{color: white;transition: all 1s;}
+                /*ow logo*/
+            
+.logo{position: absolute;bottom:930px;left: -135px;}
+.ull2{width: 1274px; height: 49px; display: flex; background-color: whitesmoke;position: absolute;top: -979px;left: -85px;z-index: 50;}
+.gd{position:fixed;top:0;left: 290px;width: 70%; transition: all 0.5s;}  
+
+.ull2 li{margin-left: 30px;font-size: 20px;line-height: 45px;color: grey;}
+.ull2 li a{color: grey;}
+.ull2 li:hover{background-color: black;transition: all 1s;}
+.container button{width: 114px;height: 49px;background-color:#f7931e;position: absolute;bottom: 929px;left: 1190px;}
+.container button a{color: white;font-size: 20px;}
+
+.box1 ul{width:115px;height:0px;overflow: hidden;background-color:#242c3c; position:absolute;left:5px;bottom:-140px;}
+.game{cursor: pointer;}
+.box1 li span{color: white;}
+.box2 ul{width:130px;height:0px;overflow: hidden;background-color:#242c3c;position:absolute;left: 150px;bottom:-280px}
+.huodong{cursor: pointer;}
+.box2 li span{color: white;}
+.box3 ul{width:130px;height: 0px;overflow: hidden;background-color:#242c3c;position:absolute;left: 360px;bottom:-120px}
+.xinwen{cursor: pointer;}
+.box3 li span{color: white;}
+.box4 ul{width:110px;height:0px;overflow: hidden;background-color:#242c3c;position:absolute;left: 520px;bottom: -150px;}
+.dzjj{cursor: pointer;}
+.box4 li span{color: white;}
+.box5 ul{width:130px;height:0px;overflow: hidden;background-color:#242c3c;position:absolute;left: 640px;bottom: -120px;}
+.shequ{cursor: pointer; }
+.box5 li span{color: white;}
+
+              /*守望先锋题目*/
+.swxf{width: 890px; position: absolute;bottom: 500px;left: 100px;}
+
+.choose{display: flex;position: absolute;left: 390px;bottom: 400px;}
+.jieshao{width: 160px;height: 50px;background-color:#00a5e2;margin-right: 30px;}
+.jieshao a{font-size: 25px;color: white;margin-left: 25px;line-height: 50px;}
+.buy{width: 160px;height: 50px;background-color:#f7931e;}
+.buy a{font-size: 25px;color: white;margin-left: 25px;line-height: 50px;}
+
+
+                /*新闻栏*/
+.container h1{margin-top: 45px;margin-left: 500px; font-size: 50px;font-weight: inherit;}
+.news{display: flex;}
+.news img{width: 380px;height: 180px;margin-right: 27px;margin-top: 40px;}
+.news p{width:380px;height: 50px; background-color: black;font-size: 20px;color: white; line-height: 60px;position: absolute;bottom: 60px;opacity: 0.5;}
+.look{width: 259px;height: 40px;background-color: #00a5e2;margin-top: 20px;margin-left: 450px;}
+.look a{color: white;font-size: 20px;line-height: 40px;margin-left: 70px;}
+
+
+                /*新英雄栏*/
+.newhero img{margin-top: 33px;margin-right: 200px;vertical-align: top;}
+.echo{float: right;width: 562px;height: 250px;position: absolute;bottom: 130px;left: 1000px;}
+.echo h1{font-size: 48px;color: #545863;font-weight: inherit;}
+.echo h2{font-size: 24px;color: #008384;margin-top: 16px;}
+.echo p{font-size: 18px;line-height: 26px;margin-top: 16px;}
+.go{width: 220px;height: 38px;background-color:#f7931e;margin-top:16px;}
+.go a{font-size: 21px;margin-left: 50px;line-height: 38px;color: white;}
+
+
+                /*各具特色*/
+.bg{width: 100%;height: 100%;}
+.bg img{width: 1902px;height: 521px;}
+.tese{width: 1250px;height: 196px; position: absolute;bottom: 289px;left: -100px;}
+.tese h1{font-size: 60px;font-weight: initial;}
+.tese p{font-size: 30px;line-height: 50px;margin-left: 370px;margin-top: 60px;}
+
+
+                 /*英雄列表*/
+.heitiao{width: 1900px;height: 200px;background-color: black;background-image: linear-gradient(to right,#928585 , #1a1b22 );position: absolute;bottom: -148px;}
+.allhero{width: 600px;height: 452px;position: absolute;bottom:-130px;}
+.allhero img{height:100%;margin-left: 650px;}
+
+.herocontent{width: 416px;height: 119px;margin-left: 1279px;margin-top:25px;}
+.herocontent h1{font-size: 60px;font-weight: lighter;color: white;}
+.herocontent p{width: 421px;height: 44px; color: white;text-align: center;margin-top: 10px;position: absolute;right: 360px;line-height:29px;}
+
+
+                /*选项卡*/
+.herozz{margin-top: 280px;position: relative;}              
+.list{margin-top: 10px;display: flex;}
+.list div{width: 80px;height: 78px;padding-right: 10px;}
+.list div img{width:68px;height: 78px;background-color:#464445;border-radius: 5%;border-style: inherit;}
+.list div img:hover{background-color: #f7931e;width: 75px;height: 80px;transition: all 0.5s;}
+.list div p{width: 100px;height: 22px;font-size: 15px;}
+.list div a{color: gray;}
+
+.list2{display: flex;}
+.list2 div{width: 80px;height: 78px;padding-right: 10px;margin-top: 35px;}
+.list2 div img{width: 68px;height: 78px;background-color:#464445;border-radius: 5%;border-style: inherit;}
+.list2 div img:hover{background-color: #f7931e;width: 75px;height: 80px;transition: all 1s;}
+.list2 div p{width: 100px;height: 22px;font-size: 15px;}
+.list2 div a{color: gray;}
+
+.list3{display: flex;margin-left:450px ;}
+.list3 div{width: 80px;height: 78px;padding-right: 10px;margin-top: 35px;}
+.list3 div img{width: 68px;height: 78px;background-color:#464445;border-radius: 5%;border-style: inherit;}
+.list3 div img:hover{background-color: #f7931e;width: 75px;height: 80px;transition: all 1s;}
+.list3 div p{width: 100px;height: 22px;font-size: 15px;}
+.list3 div a{color: gray;}
+
+
+                /*锤妹*/
+.q{background-image: url(./《守望先锋》官方网站/purchase-section-bg.jpg);margin-top: 70px;
+background-size: 99% 99%;}
+.begin{position: absolute;bottom: 60px;left: 0;right: 0 ;margin:auto;}      
+.begin h1{font-size:60px;font-weight: inherit;position: absolute;bottom:150px;}
+.begin p{font-size: 30px;color: #33334a;text-align: center;margin-bottom: 90px;}
+.begin button{position: absolute;top: 50px;left: 550px;font-size: 20px;color: white;border-style: initial;}
+.cm{margin-left: 1200px;margin-bottom: 200px;}
+
+
+                /*footer*/
+.w{width: 100%;height:358px;background-color: black;position: absolute;top: 3600px;}
+.footer{display: flex;}
+.footer p{font-size: 15px;color: blue;margin-right:40px;margin-top: 50px;}
+.footer span{color: white;margin-left: 15px;}
+
+.pic{margin-top:131px;position: absolute;left:5px;}
+.pic2{margin-top:169px;position: absolute;left:150px;}
+
+
+.tiaokuan{margin-left:100px;margin-top:90px;}
+.tiaokuan p a{color:grey ;}
+.tiaokuan p{position: absolute;bottom:-130px;color: grey;}

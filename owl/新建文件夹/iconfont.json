@@ -1,0 +1,23 @@
+{
+  "id": "1914828",
+  "name": "项目1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1631385",
+      "name": "设置",
+      "font_class": "Processsettings",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "6683016",
+      "name": "加好友",
+      "font_class": "jiahaoyou",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
